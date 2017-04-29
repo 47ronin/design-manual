@@ -1,33 +1,78 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
 # OS generated files #
 ######################
 .DS_Store
 .DS_Store?
 .Spotlight-V100
 .Trashes
-ethumbs.db
+Icon?
+ehthumbs.db
 Thumbs.db
-/.project
-jshint.out.xml
-csslint.out.xml
-*.orig
-*.tmp
-*.log
 
-# Node modules for local development
-####################################
-front/node_modules
+# Vim swap files #
+##################
+*.swp
 
-# Bower downloaded packages #
-#############################
-# uncomment once cf-framework is in the public github:
-front/vendor
-
-# Test reports #
-###################
-front/test/coverage
-front/test/junit
-
-# Jekyll #
+# Python #
 ##########
-# When running Jekyll locally, it outputs the files into the _site directory
+*.pyc
+*.egg-info/
+__pycache__/
+*.py[cod]
+.env
+
+# Django #
+##########
+*.egg-info
+.installed.cfg
+
+# Unit test / coverage reports #
+################################
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Front-End #
+#############
+node_modules/
+bower_components/
+.grunt/
+vendor/
+static/vendor/
+tmp/
+
+# Jekyll stuff #
+################
 _site
+.sass-cache
+.jekyll-metadata
+Gemfile.lock
